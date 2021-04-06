@@ -1,66 +1,87 @@
 body {
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-    width: auto;
-    margin: 100px;
-
+  font-family: "Roboto", sans-serif;
 }
 
-h3 {
-    color: #440a67
-    font-family: 'Abel', sans-serif; 
-    
-}
-div{
-    font-family: 'Abel', sans-serif;
-}
-
-button{
-
-            border-radius: 30px;
-            box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
-            margin: 20px auto;
-            display: block;
-            font-size: 16px;
-            padding: 15px 20px;
-            transition: all 200ms ease-in-out;
-            font-family: 'Abel', sans-serif;
-}
-.card-body {
-  
-    position: relative;
-    right: 0;
-    top: -20px;
-    color: #046582
-      
-    border: 1px solid #1687a7;
-    border-radius: 15px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-    
-}
-.card{   
-
-
-    border:5px;
-    border-radius: 5px;
-    right: 0;
-    top: 20px;
-    background-color: transparent;
+h1 {
+  color: rgb(220, 223, 231);
+  font-size: 24px;
+  font-weight: 100px;
+  line-height: 28px;
+  margin: 2;
 }
 
-.weekly-weather {
-    right:50;
-    top:20px;
-    position: fixed;
-    padding: 20px;
-    
-}
 ul {
-    text-align: right;
-    position: relative;
-    padding-left: 600px;
-    top: -20px;
-    line-height: 30px;
+  margin: 0;
+  padding: 0;
 }
-¨
+
+li {
+  color: rgb(234, 239, 243);
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1px;
+  list-style: none;
+}
+
+.temperature {
+  color: azure;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+div a {
+  color: azure;
+}
+
+.weather-app {
+  border: 1px solid #1687a7;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+}
+.weekly-weather {
+  color: white;
+}
+
+.temp {
+  color: rgb(247, 238, 238);
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -32px;
+}
+
+.search-form {
+  margin-bottom: 10px;
+}
+.search {
+  position: relative;
+}
+.col-6 {
+  top: 10px;
+}
+.sunday {
+  border: 1px solid #1687a7;
+}
+.monday {
+  border: 1px solid #1687a7;
+}
+.tuesday {
+  border: 1px solid #1687a7;
+}
+.wednesday {
+  border: 1px solid #1687a7;
+}
+.thursday {
+  border: 1px solid #1687a7;
+}
+.float-left {
+  color: white;
+}
